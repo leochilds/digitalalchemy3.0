@@ -2,8 +2,6 @@
 layout: none
 ---
 
-
-
 <html>
 	<head>
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
@@ -40,24 +38,20 @@ layout: none
   <!-- Jekyll CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 	</head>
-	<body class="homepage">
+	<body class="no-sidebar">
 
 		<!-- Header -->
 			<div id="header">
-						
+
 				<!-- Inner -->
 					<div class="inner">
 						<header>
 							<h1><a href="#" id="logo">Digital Alchemy</a></h1>
-							<hr />
-							<span class="byline">#foundsAndCoders</span>
 						</header>
-						<footer>
-							<a href="#banner" class="button circled scrolly">Recent</a>
-						</footer>
 					</div>
 				
-				<!-- Nav -->
+				
+						<!-- Nav -->
 					<nav id="nav">
 						<ul>
 							<li><a href="{{"/index.html" | prepend: site.baseurl }}" >Home</a></li>
@@ -68,31 +62,106 @@ layout: none
 
 			</div>
 			
-		<!-- Banner -->
-			<div id="banner">
-				<h2>Hi. Welcome to <strong>Digital Alchemy 3.0</strong>.</h2>
-				<span class="byline">
-					This is a blog chronicling the progress of team Digital Alchemy as they battle though a intense 7 week code learning programme.
-				</span>
-			</div>
-    
-    
-		<!-- Carousel -->
-			<div class="carousel">
-				<div class="reel">
-{% for post in site.posts %}
-					<article>
-						<a href="{{ post.url | prepend: site.baseurl }}" class="image featured"><img src="{{ post.imageurl }}" alt="" /></a>
-						<header>
-							<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-						</header>
-						<p>{{ post.date | date: "%b %-d, %Y" }}</p>							
-					</article>
-				 {% endfor %}
-					
+		<!-- Main -->
+			<div class="wrapper style1">
+
+				<div class="container">
+					<div class="row">
+						<div class="12u skel-cell-important" id="content">
+							<article id="main" class="special">
+								<header>
+									<h2><a href="#">About</a></h2>
+									<span class="byline">
+										Morbi convallis lectus malesuada sed fermentum dolore amet
+									</span>
+								</header>
+								<a href="" class="image featured"><img src="" alt="" /></a>
+								<p>
+									Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa 
+									posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus 
+									lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum 
+									consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue 
+									interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia 
+									natoque aenean scelerisque vel lacinia mollis quam sodales congue.
+								</p>
+								<section>
+									<header>
+										<h3>Ultrices tempor sagittis nisl</h3>
+									</header>
+									<p>
+										Nascetur volutpat nibh ullamcorper vivamus at purus. Cursus ultrices porttitor sollicitudin imperdiet
+										at pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis 
+										feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit 
+										fringilla consequat dis arcu. Pellentesque mus tempor vitae pretium sodales porttitor lacus. Phasellus 
+										egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna. 
+									</p>
+									<p>
+										Eleifend auctor turpis magnis sed porta nisl pretium. Aenean suspendisse nulla eget sed etiam parturient 
+										orci cursus nibh. Quisque eu nec neque felis laoreet diam morbi egestas. Dignissim cras rutrum consectetur 
+										ut penatibus fermentum nibh erat malesuada varius. 
+									</p>
+								</section>
+								<section>
+									<header>
+										<h3>Augue euismod feugiat tempus</h3>
+									</header>
+									<p>
+										Pretium tellus in euismod a integer sodales neque. Nibh quis dui quis mattis eget imperdiet venenatis 
+										feugiat. Neque primis ligula cum erat aenean tristique luctus risus ipsum praesent iaculis. Fermentum elit 
+										ut nunc urna volutpat donec cubilia commodo risus morbi. Lobortis vestibulum velit malesuada ante 
+										egestas odio nisl duis sociis purus faucibus morbi. Eget massa mus etiam sociis pharetra magna. 
+									</p>
+								</section>
+							</article>
+						</div>
+					</div>
+					<hr />
+					<div class="row">
+						<article class="3u special">
+							<a href="http://mdomaradzki.deviantart.com/art/Bueller-VII-351975126" class="image featured"><img src="images/pic07.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Abi</a></h3>
+							</header>
+							<p>
+								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+							</p>
+						</article>
+						<article class="3u special">
+							<a href="http://mdomaradzki.deviantart.com/art/Home-Bound-Train-II-338912191" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Henri</a></h3>
+							</header>
+							<p>
+								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+							</p>
+						</article>
+						<article class="3u special">
+							<a href="http://mdomaradzki.deviantart.com/art/Up-is-Down-325005102" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Leo</a></h3>
+							</header>
+							<p>
+								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+							</p>
+						</article>
+                        <article class="3u special">
+							<a href="http://mdomaradzki.deviantart.com/art/Up-is-Down-325005102" class="image featured"><img src="images/pic09.jpg" alt="" /></a>
+							<header>
+								<h3><a href="#">Theo</a></h3>
+							</header>
+							<p>
+								Amet nullam fringilla nibh nulla convallis tique ante proin sociis accumsan lobortis. Auctor etiam
+								porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum consequat integer interdum.
+							</p>
+						</article>
+					</div>
 				</div>
+
 			</div>
-			
+
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">

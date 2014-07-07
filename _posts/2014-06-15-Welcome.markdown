@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Welcome"
+date: 2014-06-15 12:00:00
+categories: jekyll update
+imageurl: http://www.adherecreative.com/Portals/105208/images/twitter-small-business-marketing.jpeg
+---
+Welcome to the Digital Alchemy Blog!
+
+You probably found your way here from the blog link in the navigation bar at the top of the page. If you are viewing in a desktop or landscape tablet you should be able to see a list of recent posts to your left. 
+
+If you head over to the home page there is a scrollable carousel that shows all the blog posts we have starting from the most recent on the left through to this post last on the right.
+
+I like to think of this site as a Jekyll hybrid website. The index page and about page have been hardcoded in with very little layout usage. This has a downside as any changes to the head, header, footer and other common attributes on each page must be edited for each one. However, I did use the term hybrid, so that would suggest there is some greater use of Jekyll. All the blog posts like this one do follow a specific post layout, allowing edits to be made to each post. As content is added, any editor will appreciate the ease involved in making blogwide adjustments. 
+
+You may have noticed this site is ever so different in style to the other Founders and Coders project sites from F&C2. This is primarily because no bootsrap has been used to create this website. The primary system used here is skelJS. skelJS is similar to bootsrap as it utilizes the 12 grid system. Maybe I'll make a post about skelJS sometime in the future to fully explain it.
+
+Anyways, we hope you enjoy our site and find yourself ever more attracted to the Founders and Coders course.
+
+Ta ta for now - Leo 
+

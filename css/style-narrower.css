@@ -10,8 +10,28 @@
 
 	body,input,textarea,select
 	{
-		font-size: 14pt;
-		line-height: 1.75em;
+		font-size: 13pt;
+		line-height: 1.65em;
+	}
+
+	.tweet
+	{
+		text-align: center;
+	}
+
+	.timestamp
+	{
+		display: block;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		padding: 4em 2em 4em 2em;
 	}
 	
 /*********************************************************************************/
@@ -20,16 +40,11 @@
 
 	.carousel
 	{
-		padding: 1.5em 0 1.5em 0;
+		padding: 1.25em 0 1.25em 0;
 	}
-	
-		.carousel .reel
-		{
-			padding: 0 1.5em 0 1.5em;
-		}
 
 		.carousel article
 		{
 			width: 18em;
-			margin: 0 1.25em 0 0;
+			margin: 0 1em 0 0;
 		}
