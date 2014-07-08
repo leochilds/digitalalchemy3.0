@@ -3,7 +3,7 @@ layout: post
 title: "Day 1"
 date: 2014-06-16 12:13:00
 categories: jekyll update
-imageurl: http://www.adherecreative.com/Portals/105208/images/twitter-small-business-marketing.jpeg
+imageurl: https://raw.githubusercontent.com/leochilds/leodev/gh-pages/images/Everyone.jpg
 ---
 
 The new cohort of 16 excited eagar future coders arrive at 10 am to what will be our home for the next 7 weeks: located on the basement floor of one of Camden collective’s pop up shops on camden highstreet, I wasn’t sure what to expect. Turned out the basement location consists of a nice room complete with a chelsea fringe garden!
