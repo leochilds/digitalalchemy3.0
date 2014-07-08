@@ -3,7 +3,7 @@ layout: post
 title: "Day 2"
 date: 2014-06-17 12:13:00
 categories: jekyll update
-imageurl: #
+imageurl: https://pbs.twimg.com/media/Bqa1s_9IAAEr7jr.jpg
 ---
 Today Jekyll was used to transform our repository into a blog, essentially providing the blog template.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Day 3"
 date: 2014-06-18 12:13:00
 categories: jekyll update
-imageurl: #
+imageurl: https://pbs.twimg.com/media/Bqa3nUMIIAAxQRB.jpg
 ---
 Day3
 Today we worked on adding widgets to the blog for twitter, google maps and instagram.

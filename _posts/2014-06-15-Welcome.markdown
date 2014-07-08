@@ -3,7 +3,7 @@ layout: post
 title: "Welcome"
 date: 2014-06-15 12:00:00
 categories: jekyll update
-imageurl: http://www.adherecreative.com/Portals/105208/images/twitter-small-business-marketing.jpeg
+imageurl: https://pbs.twimg.com/media/Bqa3dVvIAAAH9O7.jpg
 ---
 Welcome to the Digital Alchemy Blog!
 
